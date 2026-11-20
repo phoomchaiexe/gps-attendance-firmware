@@ -1,0 +1,32 @@
+{
+  "secret_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+  "session": "12345678-1234-4234-8234-123456789abc",
+  "period_seconds": 30,
+  "vectors": [
+    {
+      "counter": 0,
+      "digest_hex": "27aee1e10b9b2c7230837f72b5c397a0fc18dd31213f796740055ae336dc742f",
+      "code": "2349"
+    },
+    {
+      "counter": 1,
+      "digest_hex": "fab85ec67b6fdde579f33f667fa0fdabf528c9bc37e37cbdd9826613a6dd6c0f",
+      "code": "7049"
+    },
+    {
+      "counter": 60000000,
+      "digest_hex": "6981a93cd2d57090793ca9e9306bfa368ebb6af1e03c72188d5d4c90405a7f41",
+      "code": "8370"
+    },
+    {
+      "counter": 60000001,
+      "digest_hex": "44e614b11f3e52f65c25c598b571e2ea72272148aac6188b5789595e45ef3b01",
+      "code": "2095"
+    },
+    {
+      "counter": 4294967296,
+      "digest_hex": "099f0f573501594d3123f6da144a5161f76c6ab27731beff7dd899fdee033142",
+      "code": "3441"
+    }
+  ]
+}
