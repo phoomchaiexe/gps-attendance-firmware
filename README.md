@@ -20,6 +20,7 @@
 |---|---|
 | `firmware/attendance-token.h` | ไลบรารี C++ สร้าง digest และรหัส 4 หลัก ไม่ผูกกับฮาร์ดแวร์ (รับฟังก์ชัน HMAC จากภายนอก) |
 | `firmware/attendance-token-esp32.h` | ตัวเชื่อม HMAC-SHA256 ด้วย mbedTLS ของ ESP32 |
+| `firmware/attendance_board/attendance_board.ino` | โปรแกรมหลักของบอร์ด ESP32-S3 (WiFi, NTP, สร้างรหัสทุก 30 วินาที) ต้องคัดลอก `config.example.h` เป็น `config.h` ก่อนใช้ |
 | `firmware/token-vectors.json` | ชุดค่าทดสอบ (golden vectors) ที่ใช้ตรวจว่าบอร์ดกับเว็บได้ผลตรงกัน |
 | `tests/firmware-token.cpp` | โปรแกรมทดสอบบนคอมพิวเตอร์ เทียบผลกับ `token-vectors.json` |
 
